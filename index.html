@@ -5,15 +5,21 @@
     <title>Broadway Design</title>
   </head>
   <body>
-    <h1>Broadway Design</h1>
-    <br>
-    <h4>Home</h4>
-    <h4>About</h4>
-    <h4>Work</h4>
-    <h4>Team</h4>
-    <h4>Contact</h4>
-    <h2>Our Process</h2>
-    <img src="./resources/img/identity.svg" alt="curly arrow icon">
+    <div id="home">
+      <h1>Broadway Design</h1>
+      <br>
+      <nav>
+        <h4><a href="#home">Home</a></h4>
+        <h4><a href="#process">Process</a></h4>
+        <h4><a href="#work">Work</a></h4>
+        <h4><a href="#team">Team</a></h4>
+        <h4><a href="#contact">Contact</a></h4>
+      </nav>
+    </div>
+    <div id="process">
+      <h2>Our Process</h2>
+    </div>
+    <img src="./resources/img/identify.svg" alt="curly arrow icon">
     <h3>Identity</h3>
     <p>We focus on the most important details</p>
     <img src="./resources/img/understand.svg" alt="picture of a cycle">
@@ -22,13 +28,22 @@
     <img src="./resources/img/execute.svg" alt="arrow">
     <p>We put everything we have into our work</p>
     <h3>Designed in New York</h3>
-    <h3>Portfolio</h3>
-    <p>Coming Soon</p>
-    <h3>Team</h3>
-    <p>We're Hiring!</p>
-    <h3>Contact</h3>
-    <p>Phone: (555)-555-5555<br>E-mail: test@example.com<br>Twitter: @test</p>
-    <p>© Broadway 2016 Home About Work Team Contact</p>
+    <div id="work">
+      <h3>Portfolio</h3>
+      <p>Coming Soon</p>
+    </div>
+    <div id="team">
+      <h3>Team</h3>
+      <p>We're Hiring!</p>
+    </div>
+    <div id="contact">
+      <h3>Contact</h3>
+      <p>Phone: (555)-555-5555<br>E-mail: test@example.com<br>Twitter: @test</p>
+    </div>
+    <nav>
+      <p><span id="copyright">© Broadway 2016</span> <a href="#home">Home</a> <a href="#process">Process</a> <a href="#work">Work</a> <a href="#team">Team</a> <a href="#contact">Contact</a></p>
+    </nav>
+
 
   </body>
 </html>
