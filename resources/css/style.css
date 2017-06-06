@@ -11,6 +11,7 @@ h1 {
 
 #home {
   background-image: url("../img/the-flatiron-building.png");
+  background-size: 155%;
 }
 
 h4 {
